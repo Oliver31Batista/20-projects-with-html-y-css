@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="login-container">
+        <h2>Welcome</h2>
+        <p>Select authentication method</p>
+
+        <form action="">
+          <p>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" class="input" />
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password" class="input" />
+          </p>
+          <div class="options">
+            <div>
+              Remember me
+              <input type="checkbox" name="rememberme" id="rememberme" />
+            </div>
+            <div>
+              <a href="#">Forgotten password?</a>
+            </div>
+          </div>
+          <p>
+            <input type="submit" class="btn btn-login" value="Log(In)" />
+          </p>
+          <div class="providers">
+            <span>Choose another method to authenticate</span>
+            <button class="btn google-provider">Google</button>
+            <button class="btn facebook-provider">Facebook</button>
+            <button class="btn github-provider">GitHub</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="welcome-screen-container">
+        <img src="./undraw_login_re_4vu2.svg" alt="welcome-image" />
+      </div>
+    </div>
+  </body>
+</html>
